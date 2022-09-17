@@ -1,0 +1,144 @@
+* {
+    
+}
+
+@font-face {
+    font-family: "kalam";
+    src: url("./assets/Kalam-Regular.ttf") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff")
+        format("ttf");
+}
+
+@font-face {
+    font-family: "jura";
+    src: url("./assets/Jura.ttf") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff")
+        format("ttf");
+}
+
+h2 {
+    font-family: kalam, sans-serif;
+}
+
+p {
+    font-family: "jura";
+}
+
+.presentationHeader {
+    font-family: "jura";
+}
+
+.text-center {
+    font-family: "jura";
+}
+
+.welcomeMsg {
+    font-family: kalam, sans-serif;
+    font-size: 50px;
+}
+
+.nav-link {
+    font-family: kalam, sans-serif;
+}
+
+.headerContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skillsContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projetContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contactContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.network {
+    padding: 100px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.titleWeb {
+    margin-right: auto;
+    font-family: "jura";
+    font-size: 30px;
+}
+
+.name {
+    color: white;
+}
+
+.scroll-container {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.lastItemNavBar {
+}
+
+.navContainer {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.image-fluid {
+    max-width: 400px;
+    min-width: 10px;
+    height: auto;
+    border-radius: 15%;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.card {
+    height: 400px;
+}
+
+.projetContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    display: flex;
+    justify-content: end;
+}
+
+.btnProjet {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.nameSkills {
+    padding-top: 20px;
+}
+
+.spacer {
+    padding-top: 50px;
+}
+
+#containProject {
+    display: flex;
+    flex-wrap: wrap;
+}
