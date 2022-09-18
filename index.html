@@ -2,403 +2,400 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Digital Resume</title>
-    <link rel="icon" type="image/x-icon" href="./assets/batte.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Digital Resume</title>
+  <link rel="icon" type="image/x-icon" href="./assets/batte.png">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg position-absolute fixed-top">
-        <div class="container">
-          <a class="navbar-brand text-white" href="#">Martin Flament</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link text-white" href="#home">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#skills">Compétences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#projects">Projets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#contact">Contact</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg position-absolute fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Martin Flament</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#home">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#skills">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container-fluid p-0">
+      <header>
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+        <div class="overlay"></div>
+
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="./assets/header2.mp4" type="video/mp4">
+        </video>
+
+        <!-- The header content -->
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3">Bienvenue</h1>
+              <p class="lead mb-0">Je m'appelle Martin Flament <br>Etudiant et<br>Developpeur web et mobile</p>
+            </div>
           </div>
         </div>
-      </nav>
-      <section>
-          <div class="container-fluid p-0">
-              <header>      
-                  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-                  <div class="overlay"></div>
-          
-                  <!-- The HTML5 video element that will create the background video on the header -->
-                  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                      <source src="./assets/header.mp4.mp4" type="video/mp4">
-                  </video>
-          
-                  <!-- The header content -->
-                  <div class="container h-100">
-                      <div class="d-flex h-100 text-center align-items-center">
-                          <div class="w-100 text-white">
-                              <h1 class="display-3">Bienvenue</h1>
-                              <p class="lead mb-0">Je m'appelle Martin Flament <br>Etudiant et<br>Developpeur web et mobile</p>
-                          </div>
-                      </div>
-                  </div>
-              </header>
-          </div>
-      </section>
+      </header>
+    </div>
+  </section>
 
-      <!-- TEAM -->
+  <!-- TEAM -->
 
-      <section class="team bg-white">
-        <div class="">
-          <div class="mask d-flex align-items-center h-100">
-            <div class="container">
-              <h2 class="text-dark">Mon équipe</h2><br>
-              <div class="row justify-content-center text-center">
-                <div class="col-md-4 mb-4 mb-md-0">
-                  <div class="card mask-custom-1 py-5 text-white bg-transparent">
-                    <div class="card-body">
-                      <img class="rounded-circle shadow-2-strong mb-5"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" alt="avatar" style="width: 100px;"
-                        data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
-                        data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
-                      <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="300">
-                        Jules Flament</h5 >
-                      <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="400">
-                        Expert en communication <br>Digitale</p>
-                      <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="500">
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-github text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-twitter text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-linkedin-in text-white"></i>
-                        </a>
-                      </ul>
-                    </div>
-                  </div>
+  <section class="team bg-white">
+    <div class="">
+      <div class="mask d-flex align-items-center h-100">
+        <div class="container">
+          <h2 class="text-dark">Mon équipe</h2><br>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card mask-custom-1 py-5 text-white bg-transparent">
+                <div class="card-body">
+                  <img class="rounded-circle shadow-2-strong mb-5"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" alt="avatar" style="width: 100px;"
+                    data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                  <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="300">
+                    Jules Flament</h5>
+                  <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="400">
+                    Expert en communication <br>Digitale</p>
+                  <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="500">
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-github text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-twitter text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-linkedin-in text-white"></i>
+                    </a>
+                  </ul>
                 </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                  <div class="card mask-custom-1 py-5 text-white bg-transparent">
-                    <div class="card-body">
-                      <img class="rounded-circle shadow-2-strong mb-5"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" alt="avatar" style="width: 100px;"
-                        data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
-                        data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
-                      <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="300">
-                        Martin Flament</h5>
-                      <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="400">
-                        Développeur d'application et web<br>& Sécurité</p>
-                      <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="500">
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-facebook-f text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-twitter text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-linkedin-in text-white"></i>
-                        </a>
-                      </ul>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card mask-custom-1 py-5 text-white bg-transparent">
+                <div class="card-body">
+                  <img class="rounded-circle shadow-2-strong mb-5"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" alt="avatar" style="width: 100px;"
+                    data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                  <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="300">
+                    Martin Flament</h5>
+                  <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="400">
+                    Développeur d'application et web<br>& Sécurité</p>
+                  <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="500">
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-facebook-f text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-twitter text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-linkedin-in text-white"></i>
+                    </a>
+                  </ul>
                 </div>
-                <div class="col-md-4 mb-0">
-                  <div class="card mask-custom-1 py-5 text-white bg-transparent">
-                    <div class="card-body">
-                      <img class="rounded-circle shadow-2-strong mb-5"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" alt="avatar" style="width: 100px;"
-                        data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
-                        data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
-                      <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="300">
-                        Morgane Langlois</h5>
-                      <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="400">
-                        Infographiste<br>Designer</p>
-                      <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
-                        data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
-                        data-mdb-animation-delay="500">
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-dribbble text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-linkedin-in text-white"></i>
-                        </a>
-                        <a href="#!" class="px-1">
-                          <i class="fab fa-instagram text-white"></i>
-                        </a>
-                      </ul>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-0">
+              <div class="card mask-custom-1 py-5 text-white bg-transparent">
+                <div class="card-body">
+                  <img class="rounded-circle shadow-2-strong mb-5"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" alt="avatar" style="width: 100px;"
+                    data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                    data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                  <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="300">
+                    Morgane Langlois</h5>
+                  <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="400">
+                    Infographiste<br>Designer</p>
+                  <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                    data-mdb-animation-delay="500">
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-dribbble text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-linkedin-in text-white"></i>
+                    </a>
+                    <a href="#!" class="px-1">
+                      <i class="fab fa-instagram text-white"></i>
+                    </a>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
 
 
-        <!--  -->
-        <!-- SKILLS -->
-        <!--  -->
+  <!--  -->
+  <!-- SKILLS -->
+  <!--  -->
 
-        <section class="skillsContainer bg-light" id="skills">
-            <div class="container">
-                <h2 class="titleSkills">Compétences</h2><br>
-            </div>
-            <div class="container">
-                <p class="sousTitleSkills">Développement web et informatique</p>
-                <!-- HTML -->
-                <p class="nameSkills">HTML</p>
-                <div class="progress">
-                    <div class="progress-bar-animated progress-bar-striped bg-primary" role="progressbar"
-                        aria-label="Default striped example" style="width: 100%" aria-valuenow="10" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
+  <section class="skillsContainer bg-light" id="skills">
+    <div class="container">
+      <h2 class="titleSkills">Compétences</h2><br>
+    </div>
+    <div class="container">
+      <p class="sousTitleSkills">Développement web et informatique</p>
+      <!-- HTML -->
+      <p class="nameSkills">HTML</p>
+      <div class="progress">
+        <div class="progress-bar-animated progress-bar-striped bg-primary" role="progressbar"
+          aria-label="Default striped example" style="width: 100%" aria-valuenow="10" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
 
-                <!-- CSS -->
-                <p class="nameSkills">CSS</p>
-                <div class="progress">
-                    <div class="progress-bar-animated progress-bar-striped bg-success" role="progressbar"
-                        aria-label="Success striped example" style="width: 100%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
+      <!-- CSS -->
+      <p class="nameSkills">CSS</p>
+      <div class="progress">
+        <div class="progress-bar-animated progress-bar-striped bg-success" role="progressbar"
+          aria-label="Success striped example" style="width: 100%" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
 
-                <!-- PHP -->
-                <p class="nameSkills">PHP</p>
-                <div class="progress">
-                    <div class="progress-bar-animated progress-bar-striped bg-info" role="progressbar"
-                        aria-label="Info striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-
-                <!-- JS -->
-                <p class="nameSkills">JS</p>
-                <div class="progress">
-                    <div class="progress-bar-animated progress-bar-striped bg-warning" role="progressbar"
-                        aria-label="Warning striped example" style="width: 90%" aria-valuenow="75" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-
-                <!-- Boostrap -->
-                <p class="nameSkills">Bootstrap</p>
-                <div class="progress">
-                    <div class="progress-bar-animated progress-bar-striped bg-danger" role="progressbar"
-                        aria-label="Danger striped example" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
-                        aria-valuemax="100">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--  -->
-        <!-- PROJECTS -->
-        <!--  -->
-
-        <section class="projetContainer" id="projects">
-            <div class="container">
-                <h2>Projets</h2><br>
-                <div class="container" id="containProject">
-                    <div class="row" id="project">
-
-                        <!-- Indie studio -->
-                        <div class="col-lg-4">
-                            <div class="img">
-                                <img class="rounded-circle" src="./assets/bomber.png" alt="Generic placeholder image"
-                                    width="140" height="140">
-                            </div>
-                            <div class="text-center">
-                                <br>
-                                <h2>Indie studio</h2>
-                            </div>
-                            <div class="text-center">
-                                L'objectif d'Indie Studio est de mettre en œuvre un jeu vidéo 3D multiplateforme avec
-                                des
-                                outils du monde réel.
-                            </div><br>
-                            <div class="text-center">
-                                <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Indie_studio" role="button">View git »</a>
-                            </div>
-                            <div class="spacer"></div>
-                        </div>
-
-                        <!-- Bistromatique -->
-                        <div class="col-lg-4">
-                            <div class="img">
-                                <img class="rounded-circle" src="./assets/bistro.jpeg" alt="Generic placeholder image"
-                                    width="140" height="140">
-                            </div>
-                            <div class="text-center">
-                                <br>
-                                <h2>Bistromatique</h2>
-                            </div>
-                            <div class="text-center">
-                                Ce projet avait pour sujet la réalisation de calculs avec des nombres infinis,
-                                avec les opérateurs que l'on souhaite.
-                            </div><br>
-                            <div class="text-center">
-                                <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Bistromatique" role="button">View git »</a>
-                            </div>
-                            <div class="spacer"></div>
-                        </div>
-
-                        <!-- Malloc -->
-                        <div class="col-lg-4">
-                            <div class="img">
-                                <img class="rounded-circle" src="./assets/malloc.jpeg" alt="Generic placeholder image"
-                                    width="140" height="140">
-                            </div>
-                            <div class="text-center">
-                                <br>
-                                <h2>Malloc</h2>
-                            </div>
-                            <div class="text-center">
-                                Le malloc est une fonction standard du langage de programmation C permettant d'allouer
-                                dynamiquement la mémoire.
-                            </div><br>
-                            <div class="text-center">
-                                <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Malloc" role="button">View git »</a>
-                            </div>
-                            <div class="spacer"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--  -->
-        <!-- CONTACT -->
-        <!--  -->
-
-        <div class="contactContainer contact-form bg-light" id="contact">
-            <div class="container-fluid">
-                <div class="container">
-                    <form method="post">
-                        <h2>Contact</h2><br>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- Name -->
-                                <div class="form-group">
-                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
-                                        value="" />
-                                </div>
-                                <!-- Email  -->
-                                <div class="form-group">
-                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
-                                        value="" />
-                                </div>
-                                <!-- Phone -->
-                                <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control"
-                                        placeholder="Your Phone Number *" value="" />
-                                </div><br>
-                                <!-- Button -->
-                                <div class="">
-                                  <a class="btn btn-primary" href="" role="button">Envoyer »</a>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!-- Message -->
-                                <div class="form-group">
-                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
-                                        style="width: 100%; height: 150px;"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+      <!-- PHP -->
+      <p class="nameSkills">PHP</p>
+      <div class="progress">
+        <div class="progress-bar-animated progress-bar-striped bg-info" role="progressbar"
+          aria-label="Info striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
         </div>
+      </div>
 
-        <!--  -->
-        <!-- FOOTER -->
-        <!--  -->
+      <!-- JS -->
+      <p class="nameSkills">JS</p>
+      <div class="progress">
+        <div class="progress-bar-animated progress-bar-striped bg-warning" role="progressbar"
+          aria-label="Warning striped example" style="width: 90%" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
 
-        <footer>
-            <div class="text-center text-lg-start bg-dark text-muted">
-                <!-- Section: Social media -->
-                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Boostrap -->
+      <p class="nameSkills">Bootstrap</p>
+      <div class="progress">
+        <div class="progress-bar-animated progress-bar-striped bg-danger" role="progressbar"
+          aria-label="Danger striped example" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100">
+        </div>
+      </div>
+    </div>
+  </section>
 
-                </section>
-                <!-- Section: Social media -->
 
-                <!-- Section: Links  -->
-                <section>
-                    <div class="container text-center text-md-start mt-5">
-                        <div class="row mt-3">
-                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                                <!-- Content -->
-                                <h6 class="text-uppercase fw-bold mb-4 text-white"><i
-                                        class="fas fa-gem me-3"></i>Contact
-                                </h6>
-                                <p class="text-white">Martin Flament</p>
-                                <p class="text-white">martin.flament@epitech.eu</p>
-                                <p class="text-white">Epitech Technology</p>
-                                <p class="text-white">Promo 2025</p>
-                            </div>
-                            <!-- Grid column -->
+  <!--  -->
+  <!-- PROJECTS -->
+  <!--  -->
 
-                           
+  <section class="projetContainer" id="projects">
+    <div class="container">
+      <h2>Projets</h2><br>
+      <div class="container" id="containProject">
+        <div class="row" id="project">
 
-                            <!-- Grid column -->
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                <!-- Links -->
-                                <h6 class="text-uppercase fw-bold mb-4 text-white">School</h6>
-                                <p class="text-white"><i class="fas fa-envelope me-3"></i>Epitech Technology</p>
-                                <p class="text-white">5-9 Rue du Palais Rihour,</p>
-                                <p class="text-white"><i class="fas fa-home me-3"></i> Lille, France</p>
-                                <p class="text-white"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                            </div>
-                            <!-- Grid column -->
-                        </div>
-                        <!-- Grid row -->
-                    </div>
-                </section>
-                <!-- Section: Links  -->
-
-                <!-- Copyright -->
-                <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                    © 2022 Copyright:
-                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Martin Flament</a>
-                </div>
-                <!-- Copyright -->
+          <!-- Indie studio -->
+          <div class="col-lg-4">
+            <div class="img">
+              <img class="rounded-circle" src="./assets/bomber.png" alt="Generic placeholder image" width="140"
+                height="140">
             </div>
-        </footer>
-        <!-- Footer -->
+            <div class="text-center">
+              <br>
+              <h2>Indie studio</h2>
+            </div>
+            <div class="text-center">
+              L'objectif d'Indie Studio est de mettre en œuvre un jeu vidéo 3D multiplateforme avec
+              des
+              outils du monde réel.
+            </div><br>
+            <div class="text-center">
+              <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Indie_studio" role="button">View git »</a>
+            </div>
+            <div class="spacer"></div>
+          </div>
+
+          <!-- Bistromatique -->
+          <div class="col-lg-4">
+            <div class="img">
+              <img class="rounded-circle" src="./assets/bistro.jpeg" alt="Generic placeholder image" width="140"
+                height="140">
+            </div>
+            <div class="text-center">
+              <br>
+              <h2>Bistromatique</h2>
+            </div>
+            <div class="text-center">
+              Ce projet avait pour sujet la réalisation de calculs avec des nombres infinis,
+              avec les opérateurs que l'on souhaite.
+            </div><br>
+            <div class="text-center">
+              <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Bistromatique" role="button">View git »</a>
+            </div>
+            <div class="spacer"></div>
+          </div>
+
+          <!-- Malloc -->
+          <div class="col-lg-4">
+            <div class="img">
+              <img class="rounded-circle" src="./assets/malloc.jpeg" alt="Generic placeholder image" width="140"
+                height="140">
+            </div>
+            <div class="text-center">
+              <br>
+              <h2>Malloc</h2>
+            </div>
+            <div class="text-center">
+              Le malloc est une fonction standard du langage de programmation C permettant d'allouer
+              dynamiquement la mémoire.
+            </div><br>
+            <div class="text-center">
+              <a class="btn btn-primary" href="https://github.com/Mrtn-Flmt/Malloc" role="button">View git »</a>
+            </div>
+            <div class="spacer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <!-- CONTACT -->
+  <!--  -->
+
+  <div class="contactContainer contact-form bg-light" id="contact">
+    <div class="container-fluid">
+      <div class="container">
+        <form method="post">
+          <h2>Contact</h2><br>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Name -->
+              <div class="form-group">
+                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+              </div>
+              <!-- Email  -->
+              <div class="form-group">
+                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+              </div>
+              <!-- Phone -->
+              <div class="form-group">
+                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+              </div><br>
+              <!-- Button -->
+            </div>
+            <div class="col-md-6">
+              <!-- Message -->
+              <div class="form-group">
+                <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                  style="width: 100%; height: 150px;"></textarea>
+              </div>
+            </div>
+            <div class="">
+              <a class="btn btn-primary" href="" role="button">Envoyer »</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <!-- FOOTER -->
+  <!--  -->
+
+  <footer>
+    <div class="text-center text-lg-start bg-dark text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section>
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4 text-white"><i class="fas fa-gem me-3"></i>Contact
+              </h6>
+              <p class="text-white">Martin Flament</p>
+              <p class="text-white">martin.flament@epitech.eu</p>
+              <p class="text-white">Epitech Technology</p>
+              <p class="text-white">Promo 2025</p>
+            </div>
+            <!-- Grid column -->
+
+
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4 text-white">School</h6>
+              <p class="text-white"><i class="fas fa-envelope me-3"></i>Epitech Technology</p>
+              <p class="text-white">5-9 Rue du Palais Rihour,</p>
+              <p class="text-white"><i class="fas fa-home me-3"></i> Lille, France</p>
+              <p class="text-white"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Martin Flament</a>
+      </div>
+      <!-- Copyright -->
+    </div>
+  </footer>
+  <!-- Footer -->
 
 </body>
 
